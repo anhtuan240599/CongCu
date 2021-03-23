@@ -1,1 +1,12 @@
 d:\Projects\CongCu\CongCu\bin\Debug\CongCu.exe.config
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\bin\Debug\CongCu.exe.config
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\bin\Debug\CongCu.exe
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\bin\Debug\CongCu.pdb
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.csprojAssemblyReference.cache
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.Form1.resources
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.Properties.Resources.resources
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.csproj.GenerateResource.cache
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.csproj.CoreCompileInputs.cache
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.exe
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.pdb
+D:\Workspace\CongCuBaiTap\CongCu\CongCu\CongCu\obj\Debug\CongCu.Form2.resources
