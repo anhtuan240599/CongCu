@@ -28,33 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textbox = new System.Windows.Forms.TextBox();
+            this.lbUserNam = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lbPassword = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // lbUserNam
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Nhap UserNAme";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.lbUserNam.Location = new System.Drawing.Point(43, 33);
+            this.lbUserNam.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbUserNam.Name = "lbUserNam";
+            this.lbUserNam.Size = new System.Drawing.Size(132, 22);
+            this.lbUserNam.TabIndex = 0;
+            this.lbUserNam.Text = "Nhap Username";
+            this.lbUserNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textbox
+            // txtUserName
             // 
-            this.textbox.Location = new System.Drawing.Point(32, 53);
-            this.textbox.Name = "textbox";
-            this.textbox.Size = new System.Drawing.Size(214, 20);
-            this.textbox.TabIndex = 1;
+            this.txtUserName.Location = new System.Drawing.Point(43, 65);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(284, 22);
+            this.txtUserName.TabIndex = 1;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(43, 141);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(284, 22);
+            this.txtPassword.TabIndex = 3;
+            // 
+            // lbPassword
+            // 
+            this.lbPassword.Location = new System.Drawing.Point(43, 109);
+            this.lbPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(132, 22);
+            this.lbPassword.TabIndex = 2;
+            this.lbPassword.Text = "Nhap password";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.textbox);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(379, 321);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lbPassword);
+            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.lbUserNam);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -64,8 +88,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textbox;
+        private System.Windows.Forms.TextBox lbUserNam;
+        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox lbPassword;
     }
 }
 
