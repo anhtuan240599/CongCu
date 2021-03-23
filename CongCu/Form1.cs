@@ -16,5 +16,28 @@ namespace CongCu
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(txtUserName.Text == "admin" && txtPassword.Text == "admin")
+            {
+                MessageBox.Show("Dang nhap thanh cong");
+                Form2 fr = new Form2();
+                fr.Show();
+                
+                
+            }
+            else
+            {
+                MessageBox.Show("Dang nhap that bai");
+            }
+        }
+        
+         
     }
 }
